@@ -33,7 +33,7 @@ export function Game({ data, setFirstTeamPoints, setSecondTeamPoints, onGuessCon
   return (
     <VStack
       w="full"
-      bgColor="gray.800"
+      bgColor="gray.600"
       rounded="sm"
       alignItems="center"
       borderBottomWidth={3}

@@ -26,14 +26,14 @@ export function Participants({participants, count }: Props) {
             rounded="full"
             borderWidth={2}
             marginRight={-3}
-            borderColor="gray.800"
+            borderColor="gray.600"
           >
            {participant.user?.name?.at(0).toUpperCase()}
           </Avatar>
         ))
       }
 
-      <Center w={8} h={8} bgColor="gray.700" rounded="full" borderWidth={1} borderColor="gray.800">
+      <Center w={8} h={8} bgColor="gray.700" rounded="full" borderWidth={1} borderColor="gray.600">
         <Text color="gray.100" fontSize="xs" fontFamily="medium">
           {count ? `+${count}` : 0}
         </Text>

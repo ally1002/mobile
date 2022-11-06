@@ -28,7 +28,7 @@ export function PoolCard({ data, ...rest }: Props) {
       <HStack
         w="full"
         h={20}
-        bgColor="gray.800"
+        bgColor="gray.600"
         borderBottomWidth={3}
         borderBottomColor="yellow.500"
         justifyContent="space-between"
