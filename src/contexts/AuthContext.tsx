@@ -8,7 +8,7 @@ WebBrower.maybeCompleteAuthSession();
 
 interface UserProps {
     name: string
-    avatarUrl: string
+    avatarURL: string
 }
 
 export interface AuthContextDataProps {
