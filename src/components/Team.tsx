@@ -21,6 +21,7 @@ export function Team({ code, position, onChangeText }: Props) {
         fontSize="xs"
         keyboardType="numeric"
         onChangeText={onChangeText}
+        bgColor="gray.800"
       />
 
       {position === 'right' && <CountryFlag isoCode={code} size={25} style={{ marginLeft: 12 }} />}
